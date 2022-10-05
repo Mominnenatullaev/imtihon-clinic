@@ -1,0 +1,97 @@
+
+.pats-wrapper::before{
+    z-index: -1;
+    width: 319px;
+    height: 430px;
+    background-image: url(../../img/hero-img-left.png);
+    background-size: 100%;
+    right: 0;
+    top: 405px;
+    position: absolute;
+    content: "";
+}
+.pats-wrapper{
+    position: relative;
+    padding: 153px 0 311px 0 ;
+}
+.pats-wrapper{
+    max-width: 608px;
+    margin-left: auto ;
+}
+.pats-wrapper__title{
+    margin: 0;
+    margin-bottom: 29px;
+    max-width: 608px;
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 64px;
+    color: #333333;
+    
+}
+.pats-wrapper__span{
+    color: #78C0DE;
+}
+.pats-wrapper__text{
+    margin: 0;
+    margin-bottom: 38px;
+    max-width: 495px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #949494;
+}
+.pats-wrapper__link{
+    text-decoration: none;
+    display: inline-block;
+    padding: 16px 48px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background: #333333;
+    border-radius: 3px;
+}
+@media screen and (max-width:1145px) {
+    .pats-wrapper{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .pats-wrapper__text{
+        margin: 0 auto;
+        margin-bottom: 38px;
+    }
+    .pats::before{
+        display: none;
+    }
+}
+@media screen and (max-width:638px) {
+    .pats-wrapper{
+        padding: 60px 0 0px 0 ;
+    }
+    .pats-wrapper__title{
+        margin-bottom: 29px;
+        max-width: 608px;
+        font-weight: 500;
+        font-size: 53px;
+        line-height: 64px;
+        color: #333333;
+    }
+    .pats-wrapper__text{
+        margin-bottom: 38px;
+        max-width: 495px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 21px;
+        color: #949494;
+    }
+}
+@media screen and (max-width:491px) {
+    .pats-wrapper__title{
+        margin-bottom: 29px;
+        max-width: 608px;
+        font-weight: 500;
+        font-size: 39px;
+        line-height: 64px;
+        color: #333333;
+    }
+}

@@ -1,0 +1,27 @@
+.site-footer{
+    padding: 57px 65px 69px 65px;
+    background-color: #fff;
+}
+.site-footer__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.footer__left-wrapper{
+    display: flex;
+}
+.footer__right-wrapper{
+    display: flex;
+}
+.footer__left-list{
+    list-style-type: none;
+}
+.footer__left-item{
+    margin-bottom: 14px;
+}
+.footer__left-link{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #333333;
+}
